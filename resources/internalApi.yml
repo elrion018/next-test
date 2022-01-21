@@ -1,0 +1,33 @@
+default:
+  target:
+    url: http://target.zum.com/tg/target
+    version: '1.0'
+  issueWords:
+    url: http://internal-modern-api.awszum.com/api/start/issue-words
+    version: '1.0'
+  contents:
+    url: http://internal-modern-api.awszum.com/api/start/contents
+    version: '1.1'
+  today:
+    url: http://internal-modern-api.awszum.com/api/start/today
+    version: '1.0'
+
+production:
+  target:
+    url: http://target.awszum.com/tg/target
+  issueWords:
+    url: http://internal-api/api/start/issue-words
+  contents:
+    url: http://internal-api/api/start/contents
+  today:
+    url: http://internal-api/api/start/today
+
+production-local:
+  target:
+    url: http://target.zum.com/tg/target
+  issueWords:
+    url: http://internal-modern-api.awszum.com/api/start/issue-words
+  contents:
+    url: http://internal-modern-api.awszum.com/api/start/contents
+  today:
+    url: http://internal-modern-api.awszum.com/api/start/today
